@@ -229,7 +229,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/IMG_0564.JPG") top left ;
   background-size: cover;
 }
 
@@ -682,13 +682,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# certificatesawards
+# services
 --------------------------------------------------------------*/
-.certificatesawards .icon-box {
+.services .icon-box {
   margin-bottom: 20px;
 }
 
-.certificatesawards .icon {
+.services .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -701,36 +701,36 @@ section {
   border: 1px solid #149ddd;
 }
 
-.certificatesawards .icon i {
+.services .icon i {
   color: #fff;
   font-size: 24px;
   line-height: 0;
 }
 
-.certificatesawards .icon-box:hover .icon {
+.services .icon-box:hover .icon {
   background: #fff;
 }
 
-.certificatesawards .icon-box:hover .icon i {
+.services .icon-box:hover .icon i {
   color: #149ddd;
 }
 
-.certificatesawards .title {
+.services .title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.certificatesawards .title a {
+.services .title a {
   color: #343a40;
 }
 
-.certificatesawards .title a:hover {
+.services .title a:hover {
   color: #149ddd;
 }
 
-.certificatesawards .description {
+.services .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
