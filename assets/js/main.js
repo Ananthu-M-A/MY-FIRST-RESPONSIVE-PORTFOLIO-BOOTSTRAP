@@ -1,10 +1,37 @@
 /**
 * Template Name: iPortfolio
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
+* Updated: June 21 2024 with Bootstrap v5.2.3
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+// Form Validation & Submission
+
+(function () {
+  'use strict';
+  window.addEventListener('load', function () {
+    let forms = document.getElementsByClassName('needs-validation');
+    let validation = Array.prototype.filter.call(forms, function (form) {
+      form.addEventListener('submit', function (event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }  else {
+        event.preventDefault();
+        var formData = new FormData(form);
+        var formDetails = {};
+        formData.forEach(function(value, key){
+            formDetails[key] = value;
+        });
+        console.log(formDetails);
+      }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+
 (function() {
   "use strict";
 
